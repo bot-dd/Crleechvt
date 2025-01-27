@@ -14,4 +14,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . -t vishnuat/leechwithvideotool
     - name: login
-      run: docker login -u omlinkz -p vihan8075 && docker push Vishnuat/Leechwithvideotool
+      run: docker login -u omlinkz -p vihan8075 && docker push vishnuat/leechwithvideotool
