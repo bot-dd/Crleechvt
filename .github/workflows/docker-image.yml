@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . -t Vishnuat/Leechwithvideotool
+      run: docker build . -t vishnuat/leechwithvideotool
     - name: login
       run: docker login -u Vishnuat -p vishnuat2233 && docker push Vishnuat/Leechwithvideotool
