@@ -1,4 +1,4 @@
-FROM vishnuat/leechvs:latest
+FROM maheshkadali/anime-leech:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
