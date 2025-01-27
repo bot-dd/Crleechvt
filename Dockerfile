@@ -1,4 +1,4 @@
-FROM vishnuat/leechwithvideotool:latest
+FROM vishnuat/leechvs:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
