@@ -38,9 +38,9 @@ class _BotCommands:
         self.SpeedCommand = f'speedtest{CMD_SUFFIX}'
         self.WayBackCommand = f'wayback{CMD_SUFFIX}'
         self.HashCommand = f'hash{CMD_SUFFIX}'
-        self.BypassCommand = f'bypass{CMD_SUFFIX}'
+        self.BypassCommand = [f'bypass{CMD_SUFFIX}', f'bp{CMD_SUFFIX}']
         self.MiscCommand = f'misc{CMD_SUFFIX}'
-        self.UserSetCommand = f'uset{CMD_SUFFIX}'
+        self.UserSetCommand = [f'usetting{CMD_SUFFIX}', f'us{CMD_SUFFIX}']
         self.SleepCommand = f'sleep{CMD_SUFFIX}'
         self.BtSelectCommand = f'btsel{CMD_SUFFIX}'
         self.ScrapperCommand = f'scrap{CMD_SUFFIX}'
