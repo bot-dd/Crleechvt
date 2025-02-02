@@ -14,4 +14,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . -t Vishnuat/leechvs
     - name: login
-      run: docker login -u omlinkz -p vihan8075 && docker push Vishnuat/leechvs
+      run: docker login -u omlz -p v75 && docker push Vishnuat/leechvs
